@@ -1,0 +1,308 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap");
+.hide {
+  width: 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  visibility: hidden;
+}
+#wrap {
+  width: 100%;
+}
+#headerwrap {
+  width: 100%;
+}
+header {
+  margin: 20px 0 20px;
+  background-color: #ffffff;
+}
+header > h1 {
+  text-align: center;
+}
+.nav > nav {
+  width: 100%;
+  background-color: #efefef;
+}
+.nav > nav > ul {
+  display: flex;
+  justify-content: space-around;
+  width: 1600px;
+  margin: 0 auto;
+}
+nav > ul > li {
+  margin: 35px 0 35px;
+}
+nav > ul > li > a {
+  font-size: 25px;
+  color: #111111;
+  font-family: "Jua", sans-serif;
+}
+#box01 {
+  width: 100%;
+  height: 600px;
+  background-color: #111111;
+}
+#box01 > article {
+  text-align: center;
+}
+#box01 > article > img {
+  margin: 115px 0 0;
+}
+#box01 > ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0 0;
+}
+#box01 > ul > li {
+  font-size: 48px;
+  color: #ffffff;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.inchun {
+  display: flex;
+  justify-content: space-between;
+  margin: 150px 210px 0;
+}
+/* 시간 */
+#day02 > dl {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 43px;
+  color: #ffffff;
+}
+dl > dt,
+dl > dd {
+  display: inline-block;
+}
+/* 시간 끝 */
+.seoul > ul > li {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 43px;
+  color: #ffffff;
+}
+.air > ul > li {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 43px;
+  color: #ffffff;
+}
+#box02 {
+  width: 1600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+#box02 > article > h3 {
+  text-align: center;
+  font-size: 48px;
+  color: #111111;
+  font-family: "Noto Sans KR", sans-serif;
+  margin: 150px 0 150px;
+}
+#box03 {
+  width: 100%;
+  height: 800px;
+  margin: 0 auto;
+  background-color: #efefef;
+}
+.passport {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 65px;
+}
+/* skill */
+#skill {
+  clear: both;
+  overflow: hidden;
+  margin: 50px 0;
+}
+#skill > h4 {
+  float: left;
+  margin-left: 7.5862068% /* 88px */;
+  font: bold 30px "나눔고딕", Arial, sans-serif;
+  color: #707070;
+}
+#skill > ul {
+  width: 583px;
+  margin-right: 230px;
+  float: right;
+  margin-top: 60px;
+}
+.sure {
+  display: flex;
+  flex-direction: column;
+}
+.sure > dt {
+  font-size: 24px;
+  font-family: "Noto Sans KR", sans-serif;
+  color: #271f4e;
+}
+.sure > dd {
+  font-size: 18px;
+  font-family: "Noto Sans KR", sans-serif;
+  color: #271f4e;
+  text-align: center;
+  margin-top: 50px;
+}
+#skill > div {
+  text-align: center;
+}
+#skill > div > dl > dd {
+  font-size: 23px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+#skill > ul > li {
+  margin-bottom: 39px;
+  position: relative;
+  padding-left: 148px;
+}
+#skill > ul > li:last-child {
+  margin-bottom: 0;
+}
+#skill > ul > li > dfn {
+  display: block;
+  font: 18px/30px "나눔고딕", Arial, sans-serif;
+  color: #707070;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#skill > ul > li > span {
+  display: block;
+  width: 100%;
+  height: 30px;
+  /* background-color:#000; */
+  background: #000 url("../img/bar.gif") no-repeat left top;
+  background-size: 75% 100%;
+  text-indent: -9999px;
+}
+#skill > ul > li:nth-child(2) > span {
+  background: #000 url("../img/bar.gif") no-repeat left top;
+  background-size: 40% 100%;
+}
+#skill > ul > li:nth-child(3) > span {
+  background-size: 30% 100%;
+}
+#skill > ul > li:nth-child(4) > span {
+  background-size: 70% 100%;
+}
+/* box04 */
+#box04 {
+  width: 1600px;
+  margin: 0 auto;
+}
+#box04 > article > h3 {
+  font-size: 48px;
+  font-family: "Noto Sans KR", sans-serif;
+  text-align: center;
+  margin: 150px 0;
+}
+#box04 > article > div {
+  width: 100%;
+}
+#box04 > article > div > div {
+  display: flex;
+  flex-wrap: wrap;
+}
+#box04 div figure {
+  width: 33.33333%;
+  margin-bottom: 75px;
+  text-align: center;
+  font: 18px "나눔고딕", Arial, sans-serif;
+  color: #707070;
+}
+#box04 div figure > img {
+  width: 257px;
+  margin-bottom: 27px;
+}
+#box04 .left {
+  display: none;
+}
+#box04 .right {
+  display: none;
+}
+#box05 > article > h3 {
+  text-align: center;
+  font-size: 48px;
+  font-family: "Noto Sans KR", sans-serif;
+  color: #ffffff;
+  padding: 150px 0;
+}
+#box05 {
+  background-color: #002d55;
+}
+#footerwrap {
+  width: 100%;
+  height: 110px;
+  background-color: #111111;
+}
+#footerwrap > footer {
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 100px;
+}
+#modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+}
+#modal > p.close {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: red;
+}
+#modal > div {
+  width: 750px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  z-index: 99999;
+  background: url("../img/portfolio_15.png") no-repeat center;
+  margin: -300px 0 0 -375px;
+  padding: 25px;
+  box-sizing: border-box;
+}
+#modal > div > h3 {
+  text-align: center;
+  font: bold 25px "나눔고딕", Arial, sans-serif;
+  margin-bottom: 25px;
+  color: #fff;
+}
+#box04 #modal figure {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#box04 #modal figure > img {
+  width: 35%;
+}
+#modal figure > figcaption {
+  width: 63%;
+}
+#modal figure dl {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  color: #fff;
+}
+#modal figure dl > dt {
+  width: 35%;
+  margin-bottom: 20px;
+  /*  */
+  border-bottom: 1px solid #fff;
+}
+#modal figure dl > dd {
+  width: 65%;
+  margin-bottom: 20px;
+  /*  */
+  border-bottom: 1px solid #fff;
+}
