@@ -2,46 +2,46 @@
 function nowTimer() {
   let timer = new Date();
   // console.log(timer);
-  let userY = timer.getFullYear();
-  let userMM = timer.getMonth() + 1;
-  let userD = timer.getDate();
-  let userT = timer.getHours();
-  let userM = timer.getMinutes();
-  let userS = timer.getSeconds();
-  // console.log(userY,':',userMM,':',userD,':',userT,':',userM,':',userS);
+  let userYear = timer.getFullYear();
+  let userMonth = timer.getMonth() + 1;
+  let userDate = timer.getDate();
+  let userHoure = timer.getHours();
+  let userMinute = timer.getMinutes();
+  let userSeconds = timer.getSeconds();
+  // console.log(userYear,':',userMonth,':',userDate,':',userHoure,':',userMinute,':',userSeconds);
   // 날짜
-  $("#day01>dl>dd:nth-child(2)>span").text(userY);
-  // $('#day01>dl>dd:nth-child(4)>span').text(userMM);
+  $("#day01>dl>dd:nth-child(2)>span").text(userYear);
+  // $('#day01>dl>dd:nth-child(4)>span').text(userMonth);
 
-  if (userMM < 10) {
-    $("#day01>dl>dd:nth-child(4)>span").text("0" + userMM);
+  if (userMonth < 10) {
+    $("#day01>dl>dd:nth-child(4)>span").text("0" + userMonth);
   } else {
-    $("#day01>dl>dd:nth-child(4)>span").text(userMM);
+    $("#day01>dl>dd:nth-child(4)>span").text(userMonth);
   }
 
-  // $('#day01>dl>dd:nth-child(6)>span').text(userD);
-  if (userD < 10) {
-    $("#day01>dl>dd:nth-child(6)>span").text("0" + userD);
+  // $('#day01>dl>dd:nth-child(6)>span').text(userDate);
+  if (userDate < 10) {
+    $("#day01>dl>dd:nth-child(6)>span").text("0" + userDate);
   } else {
-    $("#day01>dl>dd:nth-child(6)>span").text(userD);
+    $("#day01>dl>dd:nth-child(6)>span").text(userDate);
   }
 
-  // $('#day02>dl>dd:nth-child(2)>span').text(userT);
-  if (userT > 12) {
-    $("#day02>dl>dd:nth-child(2)>span").text(userT - 12);
+  // $('#day02>dl>dd:nth-child(2)>span').text(userHoure);
+  if (userHoure > 12) {
+    $("#day02>dl>dd:nth-child(2)>span").text(userHoure - 12);
   } else {
-    $("#day02>dl>dd:nth-child(2)>span").text(userT);
+    $("#day02>dl>dd:nth-child(2)>span").text(userHoure);
   }
 
-  if (userM < 10) {
-    $("#day02>dl>dd:nth-child(4)>span").text("0" + userM);
+  if (userMinute < 10) {
+    $("#day02>dl>dd:nth-child(4)>span").text("0" + userMinute);
   } else {
-    $("#day02>dl>dd:nth-child(4)>span").text(userM);
+    $("#day02>dl>dd:nth-child(4)>span").text(userMinute);
   }
 
-  if (userS < 10) {
-    $("#day02>dl>dd:nth-child(6)>span").text("0" + userS);
+  if (userSeconds < 10) {
+    $("#day02>dl>dd:nth-child(6)>span").text("0" + userSeconds);
   } else {
-    $("#day02>dl>dd:nth-child(6)>span").text(userS);
+    $("#day02>dl>dd:nth-child(6)>span").text(userSeconds);
   }
 }
